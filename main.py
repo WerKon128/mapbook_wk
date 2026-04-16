@@ -7,7 +7,7 @@ users: list = [
     {'username': 'Filip', 'location':'Dęblin','posts':1, 'usermessage':['życzenia4', 'kocham legie4', 'sprzedam opla4', 'kiwi4']},
 ]
 
-for user in users:
+for user in users[1:]:
     print(f'twój znajomy {user['username']} z miejscowości {user['location']} opublikował {user['posts']} wiadomości. Ostatnia wiadomość {user['usermessage'] [-1]}')
 
     # twój znajomy filip z miejscowości Dęblin opublikował 1 post o treści: życzenia
