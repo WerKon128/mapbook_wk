@@ -2,14 +2,6 @@ from mapbook_lib.model import users
 from mapbook_lib.controller import read_data,add_user
 
 
-def add_users(users_data: list) -> None:
-    name = input('Podaj imię: ')
-    location = input('Podaj lokalizację: ')
-    posts = int(input('Podaj liczbę postów: '))
-    usermessage = ['']
-    users_data.append({'username': name, 'location': location, 'posts': posts,
-                       'usermessage': usermessage}, )
-
 
 while True:
     print('0 - zakończ program')
