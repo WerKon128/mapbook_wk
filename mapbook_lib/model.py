@@ -1,9 +1,9 @@
 users: list = [
-    {'username': 'Oliwia', 'location': 'Łódź', 'posts': 1,
+    {'username': 'Oliwia', 'location': 'Lublin', 'posts': 1,
      'usermessage': ['życzenia1', 'kocham legie1', 'sprzedam opla1', 'kiwi1']},
-    {'username': 'Paweł', 'location': 'Ostróda', 'posts': 2,
+    {'username': 'Paweł', 'location': 'Warszawa', 'posts': 2,
      'usermessage': ['życzenia2', 'kocham legie2', 'sprzedam opla2']},
-    {'username': 'Elizka', 'location': 'Łódź', 'posts': 3, 'usermessage': ['życzenia3', 'kocham legie3']},
-    {'username': 'Filip', 'location': 'Dęblin', 'posts': 4,
+    {'username': 'Elizka', 'location': 'Gdynia', 'posts': 3, 'usermessage': ['życzenia3', 'kocham legie3']},
+    {'username': 'Filip', 'location': 'Konin', 'posts': 4,
      'usermessage': ['życzenia4', 'kocham legie4', 'sprzedam opla4', 'kiwi4']},
 ]
